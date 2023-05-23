@@ -11,17 +11,17 @@
 
 
 body{
-  background-color: whitesmoke;
+  background-image: url('./ASSESTS/img/pexels-chris-f-1283219.jpg') !important; 
+  object-fit: contain;
+  text-align: -webkit-center;
 }
-header{
-  background-color: gray;
-}
+
 
 .redesSociales {
   width: 100%;
   padding: 8px 25px;
-  border-bottom: 1px solid whitesmoke;
   text-align: left;
+  background-color: black;
 }
 .redesSociales img {
   width: 27px;
@@ -39,4 +39,19 @@ header{
   font-weight: bold !important; 
   text-transform: uppercase !important; 
   font-size: 1.5rem;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 2.5rem !important; 
+}
+
+.tabla {
+  margin: 0 !important;
+  padding: 20px !important; 
+}
+
+
+.table {
+  text-align-last: center;
 }
